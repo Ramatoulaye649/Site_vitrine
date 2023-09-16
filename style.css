@@ -1,0 +1,922 @@
+/﹡General role﹡/
+
+html{
+	min-height: 100%;
+	box-sizing: border-box;
+}
+body{
+	background-color: #fff;
+	color: #000000;
+}
+
+a{
+	text-decoration: none;
+}
+.nav{
+	padding-bottom: 80px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.nav ul{
+	background: #fff;
+	margin: 10px 0;
+	padding: 10px 0;
+	float: right;
+	overflow: hidden;
+	margin-right: 200px;
+	
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+	margin: 10px 0;
+	padding: 10px 0;
+    float: right;
+	overflow: hidden;
+	margin-right: 300;
+	
+   
+ 
+}
+
+.right-section button,
+.right-section input {
+  margin-right: 10px;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline;
+	margin: 0 10px;
+	overflow: hidden;
+}
+
+ /* Styles pour positionner les éléments */
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image .img/img01.jpg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le paragraphe */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .container:hover .overlay {
+            opacity: 1; /* Affiche le paragraphe au survol de l'image */
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .shop-now {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+	
+}
+
+
+.container {
+            position: relative;
+            display: inline-block;
+        }
+.image .img/img02.jpg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le paragraphe */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .container:hover .overlay {
+            opacity: 1; /* Affiche le paragraphe au survol de l'image */
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .shop-now {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+	
+}
+
+.container {
+            position: relative;
+            display: inline-block;
+        }
+
+.image . img/img3.jpeg{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le paragraphe */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .container:hover .overlay {
+            opacity: 1; /* Affiche le paragraphe au survol de l'image */
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+						
+        }
+
+        .shop-now {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+	
+}
+
+.container {
+            position: relative;
+            display: inline-block;
+        }
+
+.image .mg/img4 - copie.jpg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le paragraphe */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .container:hover .overlay {
+            opacity: 1; /* Affiche le paragraphe au survol de l'image */
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+						background-color: red;
+        }
+
+        .shop-now {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+	
+.container {
+            position: relative;
+            display: inline-block;
+        }
+
+
+.image .img/img5.jpeg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le paragraphe */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .container:hover .overlay {
+            opacity: 1; /* Affiche le paragraphe au survol de l'image */
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+						background-color: red;
+        }
+
+        .shop-now {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+  body {
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            margin-bottom: 20px; /* Espace important après le titre h2 */
+						
+        }
+
+        .category-container {
+            display: flex;
+            gap: 20px; /* Espacement horizontal entre les mots */
+        }
+
+        .category {
+            padding: 10px 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+				
+				 ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+        }
+
+        .new-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+				
+				
+				.rating {
+          margin-top: 5px;
+         color: orange;
+         font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.item {
+    flex-basis: calc(25% - 20px);
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+		
+}
+
+.material {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.star-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.price {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+		background-color: red;
+}
+
+
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.image-container {
+  position: relative;
+  margin: 10px;
+}
+
+.sale-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+
+body {
+    background-color: #fff;
+    color: ##655f60;
+}
+.image {
+	background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	height: 250px;
+	width: 1227px;
+	border: 10px solid black;
+	background-repeat: no-repeat;
+	background-color: #f2f2f2
+}
+
+ .links-container {
+      display: flex; /* Utilisation de Flexbox pour l'alignement horizontal */
+      justify-content: space-between; /* Les éléments sont alignés avec un espace égal entre eux */
+      align-items: center; /* Les éléments sont centrés verticalement */
+    }
+
+  a {
+    text-decoration: none;
+}
+
+.item img {
+    width: 70%;
+    height: auto;
+		padding: 11px;
+}
+
+/* Discount */
+
+.item img {
+    width: 100%;
+    height: auto;
+    padding: 11px;
+}
+
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the discount section */
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.discount__pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.discount__text {
+    padding: 20px;
+}
+
+.discount__text__title span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.discount__text__title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+.discount__text__title h5 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.discount__countdown {
+    display: flex;
+}
+
+.countdown__item {
+    margin-right: 15px;
+}
+
+.countdown__item span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.countdown__item p {
+    font-size: 14px;
+    color: #333;
+}
+
+ body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .discount-image {
+      position: relative;
+    }
+
+    .discount-title {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 5px;
+      font-weight: bold;
+    }
+
+    .discount-content {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .discount-content h1 {
+      margin-bottom: 5px;
+    }
+
+    .discount-content br {
+      margin: 5px 0;
+    }
+
+    .discount-content p {
+      margin: 5px 0;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-color: #ccc;
+      text-align: center;
+      line-height: 50px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .shipping-icon {
+      background-color: #6ca45f;
+    }
+
+    .money-icon {
+      background-color: #4891e3;
+    }
+
+    .support-icon {
+      background-color: #e67e22;
+    }
+
+    .secure-icon {
+      background-color: #ff5722;
+    }
+
+
+.item img {
+    width: 95%;
+    height: auto;
+    margin-bottom: -22px;
+}
+
+.discount-title {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    background-color: #074d77;
+    color: #f2f2f2;
+    padding: 50px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.discount-container {
+  display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+  align-items: center; /* Aligne verticalement les éléments au centre */
+  justify-content: center; /* Centre les éléments horizontalement dans le conteneur */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne lorsque l'espace est insuffisant */
+}
+
+.discount-content {
+  text-align: center; /* Centre le contenu dans chaque élément */
+  flex: 1; /* Permet à chaque élément d'occuper un espace égal dans le conteneur */
+  max-width: 250px; /* Définit une largeur maximale pour chaque élément (peut être ajustée selon vos besoins) */
+  padding: 10px; /* Ajoute un peu d'espace autour du contenu de chaque élément */
+}
+
+/* Lien vers Font Awesome pour obtenir l'icône Instagram */
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-JIh+AKTPgrhTSEiJLhKzvK95Mnz2bmHtj9byxx5S5eP6hq2ZTjHUK15uMBGjSXn2eMdyPdL/WoUrm+f5bmM6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+/* Styles CSS */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image-item p {
+    margin-top: 10px;
+}
+
+.image-item i {
+    font-size: 24px;
+}
+
+.image-item img {
+    width: 231px;
+    height: 360px;
+    border-radius: 50%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montse
+	rrat,sans-serif;
+}
+
+footer {
+  display: flex;
+}
+
+.footer__column {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  padding: 85px;
+}
+
+.footer__column:last-child {
+  border-right: none;
+}
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column {
+    flex: 1;
+    padding: 45px;
+}
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles pour la section principale */
+.principal {
+  text-align: center;
+}
+
+/* Styles pour le logo */
+.logo img {
+  max-width: 200px; /* Ajustez la taille selon vos besoins */
+}
+
+/* Styles pour le paragraphe */
+p {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+/* Styles pour la section de paiement */
+.footer__payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permet aux icônes de paiement de passer à la ligne s'il n'y a pas assez d'espace */
+  gap: 10px; /* Espace entre les icônes de paiement */
+}
+
+/* Styles pour les icônes de paiement */
+.footer__payment img {
+  max-width: 40px; /* Ajustez la taille selon vos besoins */
+}
+	.item img {
+    width: 72%;
+    margin-left: 0px;
+}
+
+.item img Logo {
+    height: max-content;
+    margin-bottom: -22px;
+}
+
+input[type="text"] {
+  /* Your existing styles for the email input */
+}
+
+button.site-btn {
+    color: beige;
+    background-color: red;
+}
+
+
+ul.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul.social-icons li {
+  display: inline-block;
+  margin: 5px;
+}
+
+ul.social-icons li a {
+  display: block;
+  width: 30px; /* Adjust this value as needed to control the size of icons */
+  height: 30px; /* Adjust this value as needed to control the size of icons */
+  line-height: 30px; /* Adjust this value as needed to center the icons vertically */
+  background-color: #ccc; /* Optional: Add background color to the icons */
+  border-radius: 50%; /* Optional: Make the icons circular */
+  color: #333;
+  font-size: 20px;/* Optional: Set the color of the icons */
+   /* Adjust this value as needed to control the size of icons */
+}
+/* Add specific styles for each social media icon */
+ul.social-icons li a[href^="#facebook"] {
+  /* Styles for Facebook icon */
+}
+
+ul.social-icons li a[href^="#twitter"] {
+  /* Styles for Twitter icon */
+}
+
+ul.social-icons li a[href^="#youtube"] {
+  /* Styles for YouTube icon */
+}
+
+ul.social-icons li a[href^="#instagram"] {
+  /* Styles for Instagram icon */
+}
+
+ul.social-icons li a[href^="#pinterest"] {
+  /* Styles for Pinterest icon */
+}
+
+body {
+    /* Votre style pour le body */
+}
+
+/* Styles pour le logo Ashion */
+.footer__logo img {
+    width: 29%;
+	  margin-left: -537px;
+}
+
+.footer__logo img {
+    width: 50px;
+}
+
+img 1{
+    max-width: 138%;
+		 vertical-align: middle;
+    border-style: none;
+}
+
+.footer__payment a {
+    margin-right: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+	img 2 {
+    max-width: 100%;
+		vertical-align: middle;
+    border-style: none;
+}
+.footer__payment a {
+    margin-right: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+img 3{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.footer__payment a {
+    margin-right: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+	.footer__payment a  .img 4 {
+    margin-right: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer__payment a:last-child .img 5 {
+    margin-right: 0;
+}
+.footer__payment a {
+    margin-right: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+Copy code
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add any additional styling for the footer container as needed */
+}
+
+.footer__links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__widget {
+    /* Add any styling for the widgets as needed */
+}
+
+.footer__newsletter {
+    display: flex;
+    align-items: center;
+}
+
+.footer__newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__newsletter input[type="text"] {
+    /* Add any styling for the input field as needed */
+}
+
+.footer__newsletter button {
+    /* Add any styling for the submit button as needed */
+}
+
+
